@@ -154,6 +154,11 @@ img {
     color: #404bbf;
 }
 
+.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 .open-button {
   fill: #2f2f37;
   border: none;
@@ -390,7 +395,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-/*.icons-container {
+.icons-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,7 +404,7 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.content-title {
+/*.content-title {
   color: #2e2f42;
   position: absolute;
   width: 1px;
